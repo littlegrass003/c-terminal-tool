@@ -1,8 +1,6 @@
-# c-terminal-tool 1.0.0
+# c-terminal-tool 
+### version 1.0.0
 - 自定义命令行工具
-- c-cli
-
-
 
 # 项目用途:
 - 自定义的命令行工具c
@@ -29,20 +27,20 @@ c --version
 
 ### 通过c create xxx 可拉取Vue工程模版
 ```javascript
-c create demo
+sample: c create demo
 ```
 
 ### 通过c addcpn xxx 可以创建组件
 ```javascript
-c addcpn demoComponent
+Exaple: c addcpn demoComponent
 ```
 
 ### 通过c addpage xxx 可以创建page
 ```javascript
-c addpage demoPage
+Exaple: c addpage demoPage
 ```
 
 ### 通过c addstore xxx 可以创建store
 ```javascript
-c addstore demoStore
+Exaple: c addstore demoStore
 ```

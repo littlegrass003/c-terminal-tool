@@ -1,21 +1,34 @@
 {
-  "name": "c-terminal-tool",
-  "version": "1.0.0",
-  "description": "",
+  "name": "cwz",
+  "version": "1.0.1",
+  "description": "cwz-cli",
   "main": "index.js",
   "bin": {
-    "c": "index.js"
+    "cwz": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "Vue",
+    "vue",
+    "CLI",
+    "cli",
+    "Cli",
+    "component",
+    "Component"
+  ],
   "author": "Chenwuzheng",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "commander": "^6.2.1",
     "download-git-repo": "^3.0.2",
     "ejs": "^3.1.5",
     "open": "^7.3.0"
+  },
+  "homepage": "https://github.com/littlegrass003/c-vue-template.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/littlegrass003/c-vue-template.git"
   }
 }

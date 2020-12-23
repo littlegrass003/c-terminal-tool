@@ -1,5 +1,4 @@
 # c-terminal-tool 
-### version 1.0.0
 - 自定义命令行工具
 - 一个帮助你快速搭建和开发前端项目的CLI
 

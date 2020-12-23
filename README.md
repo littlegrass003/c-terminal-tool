@@ -1,15 +1,16 @@
-# c-terminal-tool 
+# cwz
 - 自定义命令行工具
 - 一个帮助你快速搭建和开发前端项目的CLI
 
 ### 安装
 ```
-npm install c -g
+npm i cwz
+npm install cwz -g
 ```
 
 ### 查看版本号
 ```
-c --version 
+cwz --version 
 ```
 
 # 项目用途:
@@ -25,18 +26,18 @@ vue项目模块已经帮你配置：
 
 ### 创建项目
 ```
-c create projectName
+cwz create projectName
 ```
 
 ### 创建组件
 - 默认存放到src/component文件夹中
 ```javascript
-c addcpn componentName 
+cwz addcpn componentName 
 ```
 
 - 指定存放具体文件夹 
 ```
-c addcpn componentName -d src/pages/home 
+cwz addcpn componentName -d src/pages/home 
 ```
 
 ### 创建page
@@ -44,26 +45,26 @@ c addcpn componentName -d src/pages/home
 - `router.js`文件是路由的其中一个配置；
 - 创建该文件中 `src/router/index.js`中会自动加载到路由的 `routes`配置中不需要手动配置了
 ```javascript
-c addpage pageName 
+cwz addpage pageName 
 ```
 
 - 指定存放具体文件夹
 - 如果是自己配置的文件夹需要手动配置
 ```
-c addpage pageName -d src/views 
+cwz addpage pageName -d src/views 
 ```
 
 ### 创建Vuex子模块
 - 默认存放在src/store/modules/home/index.js和types.js
 - 创建完成后，不需要手动配置，已经动态将所有子模块集成进去
 ```javascript
-c addstore moduleName 
+cwz addstore moduleName 
 ```
 
 - 指定文件夹 
 - 创建完成后，不需要手动配置，已经动态将所有子模块集成进去
 ```javascript
-c addstore moduleName -d src/vuex/modules 
+cwz addstore moduleName -d src/vuex/modules 
 ```
 
 ### Warning:

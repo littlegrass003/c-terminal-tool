@@ -1,6 +1,6 @@
 {
   "name": "cwz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cwz-cli",
   "main": "index.js",
   "bin": {

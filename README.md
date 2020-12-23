@@ -23,12 +23,12 @@ vue项目模块已经帮你配置：
 - 自动安装项目依赖
 - 自动打开浏览器:http://localhost:8080/
 
-### create project
+### 创建project
 ```
 cwz create projectName
 ```
 
-### create component
+### 创建component
 - 默认存放到src/component文件夹中
 ```javascript
 cwz addcpn componentName 
@@ -39,7 +39,7 @@ cwz addcpn componentName
 cwz addcpn componentName -d src/pages/home 
 ```
 
-### create page
+### 创建page
 - 默认存放在src/pages/home/Home.vue中，并且会创建src/page/home/router.js 
 - `router.js`文件是路由的其中一个配置；
 - 创建该文件中 `src/router/index.js`中会自动加载到路由的 `routes`配置中不需要手动配置了
@@ -53,7 +53,7 @@ cwz addpage pageName
 cwz addpage pageName -d src/views 
 ```
 
-### create Vuex child module
+### 创建Vuex child module
 - 默认存放在src/store/modules/home/index.js和types.js
 - 创建完成后，不需要手动配置，已经动态将所有子模块集成进去
 ```javascript

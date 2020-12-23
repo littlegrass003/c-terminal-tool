@@ -8,6 +8,16 @@
 - 包含axios网络请求
 - 命令会逐步更新
 
+### 安装方式
+```
+npm install c --global
+```
+### 查看版本号
+```
+c --version 
+```
+
+
 ### 通过c create xxx 可拉取Vue工程模版
 ```javascript
 c create demo

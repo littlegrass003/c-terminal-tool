@@ -33,7 +33,7 @@ c create demo
 c addcpn demoComponent
 ```
 
-### 可以创建page
+### 创建page
 ```javascript
 c addpage demoPage
 ```

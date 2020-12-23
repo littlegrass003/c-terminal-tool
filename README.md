@@ -45,13 +45,13 @@ c addcpn componentName -d src/pages/home
 - `router.js`文件是路由的其中一个配置；
 - 创建该文件中 `src/router/index.js`中会自动加载到路由的 `routes`配置中不需要手动配置了
 ```javascript
-c addpage YourPageName 
+c addpage pageName 
 ```
 
 - 指定存放具体文件夹
 - 如果是自己配置的文件夹需要手动配置
 ```
-c addpage YourPageName -d src/views 
+c addpage pageName -d src/views 
 ```
 
 ### 创建Vuex子模块

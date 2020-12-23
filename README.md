@@ -3,15 +3,13 @@
 - 自定义命令行工具
 
 # 项目用途:
-- 自定义的命令行工具c
-- 通过c命令来执行 拉取 创建 Vue相关项目等功能
+- 自定义的命令行工具`c`
+- 通过`c`命令来执行 拉取 创建 Vue相关项目等功能
 - 现已包含功能:
   - 拉取封装好的Vue项目
   - 动态路由
   - 动态store
   - axios网络请求
-- 命令会逐步更新
-
 
 ### 安装方式
 - 项目已经发布npm,可以通过npm来进行全局安装.
@@ -44,3 +42,6 @@ Exaple: c addpage demoPage
 ```javascript
 Exaple: c addstore demoStore
 ```
+
+### Warning:
+- 命令会逐步更新

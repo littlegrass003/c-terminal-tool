@@ -26,23 +26,33 @@ vue项目模块已经帮你配置：
 
 ### 创建项目
 ```
-c create your_project_name
+c create projectName
 ```
 
 ### 创建组件
+- 默认存放到src/component文件夹中
 ```javascript
-c addcpn yourComponentName # 默认存放到src/component文件夹中
-c addcpn yourComponentName -d src/pages/home # 指定存放的具体文件夹 
+c addcpn componentName 
+```
+
+- 指定存放具体文件夹 
+```
+c addcpn componentName -d src/pages/home 
 ```
 
 ### 创建page
-```javascript
-c addpage YourPageName # c addpage Home，默认会放到src/pages/home/Home.vue中，并且会创建src/page/home/router.js 
-c addpage YourPageName -d src/views # 也可以指定文件夹，但需要手动集成路由
-```
-### 为什么会创建router.js文件：
+- 默认存放在src/pages/home/Home.vue中，并且会创建src/page/home/router.js 
 - `router.js`文件是路由的其中一个配置；
-- 创建该文件中 `src/router/index.js`中会自动加载到路由的 `routes`配置中，不需要手动配置了（如果是自己配置的文件夹需要手动配置）
+- 创建该文件中 `src/router/index.js`中会自动加载到路由的 `routes`配置中不需要手动配置了
+```javascript
+c addpage YourPageName 
+```
+
+- 指定存放具体文件夹
+- 如果是自己配置的文件夹需要手动配置
+```
+c addpage YourPageName -d src/views 
+```
 
 ### 创建Vuex子模块
 - 创建完成后，不需要手动配置，已经动态将所有子模块集成进去

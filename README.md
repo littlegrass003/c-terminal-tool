@@ -22,32 +22,38 @@ npm install c -g
 c --version 
 ```
 
-
 ### 拉取Vue工程模版
-1. 拉取代码
-2. 自动执行npm install
-3. 自动执行npm run serve
-4. 自动打开浏览器localhost:8080地址
 ```javascript
 c create demo
 ```
+执行后会自动做以下事情:
+1. 拉取代码
+2. 执行npm install
+3. 执行npm run serve
+4. 打开浏览器localhost:8080地址
 
 ### 创建全局组件
+- 默认会创建在`src/components`地址下
+- 也可以指定目录创建
 ```javascript
-c addcpn demoComponent
-c addcpn demoComponent 指定目录
+c addcpn demoComponent 
+c addcpn demoComponent src/components/custom
 ```
 
 ### 创建page
+- 默认会创建在`src/pages`地址下
+- 也可以指定目录创建
 ```javascript
 c addpage demoPage
-c addpage demoPage 指定目录
+c addpage demoPage src/pages/custom
 ```
 
 ### 创建store
+- 默认会创建在`src/store/modules`下
+- 也可以指定目录创建
 ```javascript
 c addstore demoStore
-c addstore demoStore 指定目录
+c addstore demoStore src/store/modules/custom
 ```
 
 ### Warning:

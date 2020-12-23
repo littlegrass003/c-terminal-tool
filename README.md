@@ -55,10 +55,16 @@ c addpage YourPageName -d src/views
 ```
 
 ### 创建Vuex子模块
+- 默认存放在src/store/modules/home/index.js和types.js
 - 创建完成后，不需要手动配置，已经动态将所有子模块集成进去
 ```javascript
-c addstore YourVuexChildModuleName # 例如c addstore home，默认会放到src/store/modules/home/index.js和types.js
-c addstore YourVuexChildModuleName -d src/vuex/modules # 指定文件夹 
+c addstore moduleName 
+```
+
+- 指定文件夹 
+- 创建完成后，不需要手动配置，已经动态将所有子模块集成进去
+```javascript
+c addstore moduleName -d src/vuex/modules 
 ```
 
 ### Warning:

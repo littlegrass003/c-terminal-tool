@@ -4,7 +4,6 @@
 
 ### 安装
 ```
-npm i cwz
 npm install cwz -g
 ```
 

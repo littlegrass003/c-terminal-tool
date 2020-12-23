@@ -25,22 +25,22 @@ c --version
 
 ### 通过c create xxx 可拉取Vue工程模版
 ```javascript
-sample: c create demo
+c create demo
 ```
 
 ### 通过c addcpn xxx 可以创建组件
 ```javascript
-Exaple: c addcpn demoComponent
+c addcpn demoComponent
 ```
 
 ### 通过c addpage xxx 可以创建page
 ```javascript
-Exaple: c addpage demoPage
+c addpage demoPage
 ```
 
 ### 通过c addstore xxx 可以创建store
 ```javascript
-Exaple: c addstore demoStore
+c addstore demoStore
 ```
 
 ### Warning:
